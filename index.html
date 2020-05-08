@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>osaka_website</title>
+    <script defer
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <p>大阪の個人的に<br>うまいもんサイト</p>
+            </div>
+            <i class="fas fa-bars menu-icon"></i>
+            <div class="header-right">
+                <ul>
+                    <li>サイト概要</li>
+                    <li>うまいもんスポット</li>
+                    <li>問い合わせ</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="top-wrapper">
+        <div class="container">
+            <div class="top-icon"></div>
+            <img class="japan-logo" src="./img/japan_logo.jpg" alt="">
+            <img class="osaka-logo" src="./img/osaka_logo.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="top-slider">
+            <div id="options-autoplay" class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide"><img src="img/ikura.jpg" alt=""></li>
+                        <li class="glide__slide"><img src="img/tenpei_gyoza.JPG" alt=""></li>
+                        <li class="glide__slide"><img src="img/anaba_sushi.JPG" alt=""></li>
+                        <li class="glide__slide"><img src="img/sosokarubi.jpg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">⬅️</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">➡</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-wrapper">
+        <div class="container">
+            <h1>このサイトの概要</h1>
+            <div class="info-list">
+                <ul>
+                    <li><i class="fas fa-apple-alt"></i>このサイトは、あくまで個人的に『うまい！』と思ったお店の紹介サイトです。</li>
+                    <li><i class="fas fa-apple-alt"></i>紹介するお店は安くて、美味しい大阪のローカルスポットです。</li>
+                    <li><i class="fas fa-apple-alt"></i>『このサイト見ました。』と定員さんに言っても割引などされませんのでご注意下さい。</li>
+                    <li><i class="fas fa-apple-alt"></i>このサイトをみて、『美味しそう！』など感じてくれたら嬉しいです。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommend-wrapper">
+        <div class="container">
+            <h1>うまいもんスポット</h1>
+            <div class="recommend-spots">
+                <div class="recommend-spot">
+                    <img src="img/ikura.jpg" alt="ikura" class="fadein">
+                    <div class="fadein spot-detail">
+                        <h3>天ぷらとワイン大塩</h3>
+                        <p class="text-contents">
+                            創作天ぷらとワインのお店。
+                            おすすめは、いくらカナッペ。<br>
+                            目の前であげてくれて、揚げたてをすぐに食べれるのが良い！
+                            それとあわせて飲むスパークリングワインは、最高！！！
+                            もちろん、ビールやハイボール、サワーもあるのでワインが苦手な人でも気軽に入れる。
+                        </p>
+                    </div>  
+                </div>
+                <div class="recommend-spot">
+                    <div class="fadein spot-detail">
+                        <h3>天平</h3>
+                        <p class="text-contents">
+                            １種類の餃子しかない北新地のお店。<br>
+                            1人前20個をペロリと食べれてしまうくらい
+                            衝撃的なうまさ。少しピリ辛なので、これまたビールがすすんでしまう。
+                            大変混むのでおかわりは、１回まで。喋りながらゆっくり食べてると
+                            店員のおじさんに冷めるから早く食べてと怒られる人もいる。笑
+                        </p>
+                    </div>
+                    <img src="img/tenpei_gyoza.JPG" alt="gyoza" class="fadein">
+                </div>
+                <div class="recommend-spot">
+                    <img src="img/anaba_sushi.JPG" alt="sushi" class="fadein">
+                    <div class="fadein spot-detail">
+                        <h3>大衆すし居酒屋　穴場</h3>
+                        <p class="text-contents">
+                            なんと、１皿(２貫)86円(税抜き)〜の寿司屋。<br>
+                            新鮮でしかも、ネタもでかい！一口では入らないほどのでかさなので
+                            調子に乗って最初に頼み過ぎないのがおすすめ。笑
+                            いくつか店舗あるがものすごく人気の店なので飛び込みで行ってもほとんど入れない。
+                            予約してから行くのがおすすめ！
+                        </p>
+                    </div>  
+                </div>
+                <div class="recommend-spot">
+                    <div class="fadein spot-detail">
+                        <h3>ソソカルビ　牛天</h3>
+                        <p class="text-contents">
+                            ソウルの本場で有名なドラム缶スタイルのお店。<br>
+                            マルチョウ１本焼き、ハラミ１本焼きは最高！！
+                            ここの食べ方のは、鉄板に置いてある秘伝のタレの入ったボールに
+                            焼けたお肉からいれていき、タレを染み込ませてから食べる！そして、ビールで流し込む！
+                            これが最っ高にうまい！！予約して行くべき！
+                        </p>
+                    </div>
+                    <img src="img/sosokarubi.jpg" alt="yakiniku" class="fadein">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="message-wrapper">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <h3>ご覧いただき、ありがとうございました。</h3>
+            <p>ご不明な点、質問等ございましたら下記よりお問い合わせ下さい。</p>
+        </div>
+        <span class="btn">Let's Go!!</span>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <p>&#169; 大阪の個人的にうまいもんサイト</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+</body>
+</html> 

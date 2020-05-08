@@ -1,0 +1,57 @@
+@media (max-width: 1000px) {
+    .osaka-logo {
+        position: absolute;
+        top: 98px;
+        left: 170px;
+    }
+    .recommend-spot img {
+        width: 300px;
+        height: 300px;
+        margin: 0 20px; 
+    }
+    .spot-detail h3 {
+        font-size: 30px;
+        padding: 20px;
+    }
+    .text-contents {
+        line-height: 23px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 670px) {
+    .japan-logo {
+        width: 400px;
+        position: relative;
+    }
+    .osaka-logo {
+        width: 150px;
+        position: absolute;
+        left: 150px; 
+    }
+    .info-list {
+        font-size: 15px;
+    }
+    .recommend-spot img {
+        width: 200px;
+        height: 200px;
+        margin: 0 20px;
+    }
+    .spot-detail h3 {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .text-contents {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .message-wrapper h2 {
+        font-size: 30px;
+    }
+    .menu-icon {
+        display: block !important;
+    }
+    .header-right {
+        display: none;
+    }
+
+} 
