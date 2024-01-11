@@ -1,0 +1,319 @@
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+ }
+
+ .navbar__top{
+   position: relative;
+   height:170px;
+   width: 100%;
+   background-color:rgb(113, 205, 174);
+   z-index: 2;
+   display: flex;
+   justify-content: center;
+   border-bottom: 5px solid rgb(93, 163, 140);
+   }
+
+ .logo__container img{
+   height: 150px;
+   width: 150px;
+   position: absolute;
+   margin-top: 6px;
+   left: 50px;
+   box-shadow: 0 2px 10px black;
+   z-index: 4;
+ }
+ 
+   
+.Home{
+   width: 160px;
+   line-height: 40px; 
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 5%;
+   margin-right: 5%;
+   border: none;
+   color: white;
+   text-align: center;
+   padding: 15px 32px;
+   text-decoration: none;
+   font-size: 16px;
+   background-color:rgb(53, 53, 53);
+   border-radius: 5px;
+   transition-duration:0.4s;
+   cursor: pointer;
+   border-radius: 15px;
+   box-shadow: 0 5px rgb(52, 91, 78);
+   position: relative;
+   display: block;
+   z-index: 4;
+
+ } 
+
+ 
+
+ .Home:hover{
+   background-color: rgb(38, 38, 38);
+   box-shadow: 0 8px rgb(52, 91, 78);
+   transform: translateY(-3px);
+ }
+
+
+ .Home:active{
+   box-shadow: 0 5px rgb(52, 91, 78);
+   transform: translateY(3px);
+ }
+
+
+ .left__container{
+    height: 594px;
+    width: 60%;
+    background-color: rgb(53, 53, 53);
+    z-index: 2;
+
+ }
+
+ .right__container{
+    position: absolute;
+    height: 667px;
+    width: 40%;
+    right: 0;
+    background-color: rgb(93, 163, 140);
+    left: 400;
+    top: 14%;
+    align-items: center;
+ }
+
+  .gojoPfp img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 80px;
+    box-shadow: 0 2px 10px;
+    left: 10px;
+    top: 190px;
+    z-index: 2;
+ }
+
+  .chat__left1 img{
+  height: 80px;
+  width: 430px;
+  position: absolute;
+  top: 135px;
+  left: 0;
+  z-index: 2;
+ }
+
+ .osakap img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 80px;
+    box-shadow: 0 2px 10px;
+    top: 240px;
+    right: 20px;
+    z-index: 2;
+ }
+
+ .chat__right img{
+  height: 100px;
+  top: 160px;
+  right: 70px;
+  position: absolute;
+  z-index: 2;
+ }
+
+ .gojoPfp2 img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 80px;
+  box-shadow: 0 2px 10px;
+  left: 10px;
+  top: 360px;
+  z-index: 2;
+ }
+
+ .chat__left2 img{
+  height: 90px;
+  width: 370px;
+  position: absolute;
+  top: 290px;
+  left: 0;
+  z-index: 2;
+ }
+
+ .osakap2 img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 80px;
+  box-shadow: 0 2px 10px;
+  top: 440px;
+  right: 20px;
+  z-index: 2;
+ }
+
+ .chat__right2 img{
+  height: 100px;
+  top: 370px;
+  right: 70px;
+  position: absolute;
+  z-index: 2;
+ }
+
+ .gojoPfp3 img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 80px;
+  box-shadow: 0 2px 10px;
+  left: 10px;
+  top: 530px;
+  z-index: 2;
+ }
+
+ .chat__left3 img{
+  height: 90px;
+  width: 300px;
+  position: absolute;
+  top: 460px;
+  left: 0;
+  z-index: 2;
+ }
+ .osakap3 img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 80px;
+  box-shadow: 0 2px 10px;
+  top: 610px;
+  right: 20px;
+  z-index: 2;
+ }
+
+ .chat__right3 img{
+  height: 100px;
+  top: 530px;
+  right: 40px;
+  position: absolute;
+  z-index: 2;
+ }
+
+ .chatBgd img{
+  position: absolute;
+  height: 664px;
+  width: 40%;
+  right: 0;
+  top: 100px;
+  z-index: 0;
+ }
+
+ .onlineBar{
+  position: absolute;
+  top:170px;
+  right:0;
+  height: 56px;
+  width: 608px;
+  background-color: rgb(196, 210, 206);
+  z-index: 3;
+  border: 3px solid rgb(70, 70, 70);
+  box-shadow: 0 3px 3px black;
+ }
+ 
+ .backBut img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  z-index:4;
+ }
+
+ .osakaProf img{
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  border-radius: 100px;
+  border-color: solid black;
+  border: 2px;
+  top: 3px;
+  left: 130px;
+
+  z-index: 2;
+ }
+
+ .osakaName{
+  position: absolute;
+  top: 8px;
+  right: 270px;
+ }
+
+ .osaka_status{
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  font-size: 12px;
+ }
+
+ .callIcon img{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 8px;
+  right: 100px;
+
+ }
+ 
+ .chatOptions img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+ }
+
+ .osakersPhoto img{
+  height: 400px;
+  width: 450px;
+  position: absolute;
+  top: 330px;
+  left: 20px;
+ }
+
+
+ .Title{
+  text-decoration: none;
+  size: 10px;
+  color: rgb(210, 210, 210);
+  position: absolute;
+  top: 240px;
+  left: 30px;
+  font-size: 33px;
+ }
+
+ .par1{
+  position: absolute;
+  top: 326px;
+  left: 500px;
+  width: 410px;
+  color: rgb(210, 210, 210);
+  line-height: 25px;
+ }
+
+ .illusion img{
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  top: 620px;
+  left: 540px;
+ }
+
+
